@@ -1,0 +1,22 @@
+{
+  "name": "react-social-login",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-facebook-login": "^3.6.2",
+    "react-map-gl": "^3.0.4",
+    "react-google-login": "^2.11.3",
+    "react-router-dom": "^4.2.0",
+    "react-scripts": "1.0.11",
+    "raf": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --setupTestFrameworkScriptFile=raf/polyfill",
+    "eject": "react-scripts eject"
+  }
+}
